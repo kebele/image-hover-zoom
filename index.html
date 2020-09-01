@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>product zooming effect</title>
+</head>
+<body>
+    <!-- 
+        thansk to Online Web Ustaad - https://www.youtube.com/watch?v=RSVcphYKib8
+        and
+        https://github.com/MonsterDuang
+     -->
+    <div class="show" href="images/o.jpg">
+        <img src="images/o.jpg"  id="show-img" alt="">
+    </div>
+
+    <div class="small-img">
+        <img src="images/prev-icon.png" class="icon-left" id="prev-img" alt="">
+        <div class="small-container">
+            <div id="small-img-roll">
+                <img src="images/o.jpg" class="show-small-img" alt="">
+                <img src="images/two.jpg" class="show-small-img" alt="">
+                <img src="images/three.jpg" class="show-small-img" alt="">
+                <img src="images/four.jpg" class="show-small-img" alt="">
+            </div>
+        </div>
+        <img src="images/next-icon.png" class="icon-right" id="next-img" alt="">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="zoom-image.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
